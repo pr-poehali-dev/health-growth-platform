@@ -19,13 +19,13 @@ const Hero = () => {
               и достижения ваших целей с помощью AI-консультанта
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-wellness-green-accent hover:bg-wellness-green-accent/90 text-white px-8 py-3 text-lg">
+              <Button className="btn-primary px-8 py-3 text-lg">
                 <Icon name="Play" className="mr-2" />
                 Начать бесплатно
               </Button>
               <Button
                 variant="outline"
-                className="border-wellness-deep-mint text-wellness-deep-mint hover:bg-wellness-deep-mint hover:text-white px-8 py-3 text-lg"
+                className="btn-outline px-8 py-3 text-lg"
               >
                 <Icon name="MessageCircle" className="mr-2" />
                 Чат с AI

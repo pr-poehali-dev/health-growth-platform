@@ -145,9 +145,7 @@ const Services = () => {
                   ))}
                 </div>
 
-                <Button
-                  className={`w-full ${service.color.replace("text-", "bg-")} hover:opacity-90 text-white font-medium`}
-                >
+                <Button className="btn-secondary w-full font-medium">
                   Узнать больше
                   <Icon name="ArrowRight" size={16} className="ml-2" />
                 </Button>
@@ -165,10 +163,7 @@ const Services = () => {
               Получите персональный план развития на основе ваших целей и
               предпочтений
             </p>
-            <Button
-              size="lg"
-              className="bg-white text-wellness-deep-mint hover:bg-gray-100 px-8 py-3 font-semibold"
-            >
+            <Button size="lg" className="btn-accent px-8 py-3 font-semibold">
               <Icon name="Sparkles" className="mr-2" />
               Создать персональный план
             </Button>

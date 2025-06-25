@@ -155,7 +155,7 @@ const Calendar = () => {
                   </div>
                 ))}
               </div>
-              <Button className="w-full mt-4 bg-wellness-green-accent hover:bg-wellness-green-accent/90">
+              <Button className="btn-primary w-full mt-4">
                 <Icon name="Plus" className="mr-2" size={16} />
                 Добавить тренировку
               </Button>

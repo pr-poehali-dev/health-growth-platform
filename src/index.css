@@ -68,3 +68,21 @@
     @apply bg-nature-warm-cream text-foreground font-roboto;
   }
 }
+
+@layer components {
+  .btn-primary {
+    @apply bg-nature-forest-green text-nature-warm-cream hover:bg-nature-sage-green;
+  }
+
+  .btn-secondary {
+    @apply bg-nature-terracotta text-nature-warm-cream hover:bg-nature-warm-brown;
+  }
+
+  .btn-accent {
+    @apply bg-nature-sunset-orange text-nature-warm-cream hover:bg-nature-rust;
+  }
+
+  .btn-outline {
+    @apply border-2 border-nature-forest-green text-nature-forest-green bg-transparent hover:bg-nature-forest-green hover:text-nature-warm-cream;
+  }
+}

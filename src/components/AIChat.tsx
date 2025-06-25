@@ -110,10 +110,7 @@ const AIChat = () => {
                   placeholder="Задайте вопрос о здоровье..."
                   className="flex-1"
                 />
-                <Button
-                  size="sm"
-                  className="bg-wellness-blue-accent hover:bg-wellness-blue-accent/90"
-                >
+                <Button size="sm" className="btn-primary">
                   <Icon name="Send" size={16} />
                 </Button>
               </div>
