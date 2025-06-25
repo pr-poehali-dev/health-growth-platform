@@ -115,7 +115,7 @@ const Community = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button className="btn-primary px-8 py-3">
+          <Button className="bg-wellness-purple hover:bg-wellness-purple/90 text-white px-8 py-3">
             <Icon name="Users" className="mr-2" />
             Присоединиться к сообществу
           </Button>
