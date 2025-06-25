@@ -52,16 +52,19 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        wellness: {
-          mint: "#E0F7FA",
-          neutral: "#F5F5F5",
-          "deep-mint": "#00695C",
-          purple: "#4A148C",
-          "green-accent": "#81C784",
-          "blue-accent": "#29B6F6",
-          "coral-accent": "#FF8A65",
-          "gray-blue": "#B0BEC5",
-          peach: "#FFCCBC",
+        nature: {
+          terracotta: "#D2691E", // Терракота
+          "warm-brown": "#8B4513", // Теплый коричневый
+          "golden-yellow": "#FFD700", // Золотисто-желтый
+          "forest-green": "#228B22", // Лесная зелень
+          "sunset-orange": "#FF6347", // Закатный оранжевый
+          "deep-burgundy": "#8B0000", // Глубокий бордовый
+          "sage-green": "#9CAF88", // Шалфейно-зеленый
+          "warm-cream": "#FFF8DC", // Теплый кремовый
+          "earth-beige": "#F5E6D3", // Земляной бежевый
+          amber: "#FFBF00", // Янтарный
+          "moss-green": "#8FBC8F", // Мшисто-зеленый
+          rust: "#B7410E", // Ржавый
         },
       },
       fontFamily: {
